@@ -1,3 +1,5 @@
+p "rakelib/faq.rake"
+
 # Generate FAQ
 desc "Generate the FAQ document"
 task :faq => ['faq/faq.html']

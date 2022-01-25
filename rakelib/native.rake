@@ -1,4 +1,6 @@
 # use rake-compiler for building the extension
+p "rakelib/native.rake"
+
 require 'rake/extensiontask'
 require 'rake/extensioncompiler'
 
