@@ -1,3 +1,6 @@
+p "rakelib/vendor_sqlite3.rake"
+p ARGV
+
 require "rake/clean"
 require "rake/extensioncompiler"
 require "mini_portile"
@@ -106,3 +109,6 @@ task "gem:windows" do
   require "rake_compiler_dock"
   RakeCompilerDock.sh "bundle && rake cross native gem MAKE='nice make -j`nproc`'"
 end
+
+#
+p "rakelib/vendor_sqlite3.rake END" 

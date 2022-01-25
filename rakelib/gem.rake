@@ -1,3 +1,5 @@
+p "rakelib/gem.rake"
+
 begin
   require 'hoe'
 rescue LoadError
